@@ -9,31 +9,17 @@
 		{ "name": "Contact Us", "href": "/contact", "showInNavbar": false }
 	],
 	"menuWebApp": [
-		{ "name": "Privacy", "href": "/privacy" },
-		{ "name": "Terms", "href": "/terms" },
-		{ "name": "Careers", "href": "https://sygnalxyz.notion.site/Networky-Careers-ff2fad770c5d41628fcbe18d3c2c369a" },
-		{ "name": "Contact Us", "href": "/contact" }
+		{ "name": "Privacy", "href": "/privacy", "showInNavbar": false },
+		{ "name": "Terms", "href": "/terms", "showInNavbar": false },
+		{ "name": "Careers", "href": "https://sygnalxyz.notion.site/Networky-Careers-ff2fad770c5d41628fcbe18d3c2c369a", "showInNavbar": true },
+		{ "name": "Contact Us", "href": "/contact", "showInNavbar": false }
 	],
-	"menuWebAppAuth": [
-		{ "id": "events", "icon": "events", "href": "/events" },
-		{ "id": "contact", "icon": "group_people", "href": "/mutuals" }
-	],
-	"menuProfile": [
-		{ "id": "profile", "name": "See your profile" },
-		{ "id": "logout", "icon": "logout", "name": "Log Out", "href": "/auth" }
-	],
-	"menuButtonCreateEvent": {
-		"text": "Create Event",
-		"href": "/create"
-	},
 	"authMenu": [
 		{
-			"id": "login",
 			"name": "Log In",
 			"href": "/auth"
 		},
 		{
-			"id": "create-event",
 			"name": "<span class='lg-hidden'>Sign Up</span><span class='max-lg-hidden'>Create Event Page</span>",
 			"href": "/auth"
 		}
@@ -57,33 +43,21 @@
 		"list": [
 			{
 				"alt": "twitter",
-				"url": "https://twitter.com/",
+				"url": "https://twitter.com/networkyco",
 				"image": "/images/social_media/twitter.png",
 				"class": "p-1 sm:p-1.5"
 			},
 			{
 				"alt": "linkedin",
-				"url":  "https://www.linkedin.com/",
+				"url":  "https://www.linkedin.com/company/networky-co",
 				"image": "/images/social_media/linkedin.png",
 				"class": "p-1 sm:p-1.5"
 			},
 			{
-				"alt": "instagram",
-				"url":  "https://www.instagram.com/",
-				"image": "/images/social_media/instagram.png",
-				"class": "p-1 sm:p-1.5"
-			},
-			{
 				"alt": "medium",
-				"url":  "https://medium.com/",
+				"url":  "https://medium.com/@networky",
 				"image": "/images/social_media/medium.png",
 				"class": "p-1"
-			},
-			{
-				"alt": "telegram",
-				"url":  "https://web.telegram.org/",
-				"image": "/images/social_media/telegram.png",
-				"class": "p-1 sm:p-1.5"	
 			}
 		]
 	},
