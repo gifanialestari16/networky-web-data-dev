@@ -43,13 +43,13 @@
 		"list": [
 			{
 				"alt": "twitter",
-				"url": "https://twitter.com/networkyco",
+				"url": "https://twitter.com/networkyai",
 				"image": "/images/social_media/twitter.png",
 				"class": "p-1 sm:p-1.5"
 			},
 			{
 				"alt": "linkedin",
-				"url":  "https://www.linkedin.com/company/networky-co",
+				"url":  "https://www.linkedin.com/company/networky-ai/",
 				"image": "/images/social_media/linkedin.png",
 				"class": "p-1 sm:p-1.5"
 			},
