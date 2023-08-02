@@ -19,8 +19,7 @@
 		{ "id": "contact", "icon": "group_people", "href": "/mutuals" }
 	],
 	"menuProfile": [
-		{ "id": "profile", "name": "See your profile" },
-		{ "id": "logout", "icon": "logout", "name": "Log Out", "href": "/auth" }
+		{ "id": "profile", "name": "See your profile" }
 	],
 	"menuButtonCreateEvent": {
 		"text": "Create Event",
