@@ -9,17 +9,31 @@
 		{ "name": "Contact Us", "href": "/contact", "showInNavbar": false }
 	],
 	"menuWebApp": [
-		{ "name": "Privacy", "href": "/privacy", "showInNavbar": false },
-		{ "name": "Terms", "href": "/terms", "showInNavbar": false },
-		{ "name": "Careers", "href": "https://sygnalxyz.notion.site/Networky-Careers-ff2fad770c5d41628fcbe18d3c2c369a", "showInNavbar": true },
-		{ "name": "Contact Us", "href": "/contact", "showInNavbar": false }
+		{ "name": "Privacy", "href": "/privacy" },
+		{ "name": "Terms", "href": "/terms" },
+		{ "name": "Careers", "href": "https://sygnalxyz.notion.site/Networky-Careers-ff2fad770c5d41628fcbe18d3c2c369a" },
+		{ "name": "Contact Us", "href": "/contact" }
 	],
+	"menuWebAppAuth": [
+		{ "id": "events", "icon": "events", "href": "/events" },
+		{ "id": "contact", "icon": "group_people", "href": "/mutuals" }
+	],
+	"menuProfile": [
+		{ "id": "profile", "name": "See your profile" },
+		{ "id": "logout", "icon": "logout", "name": "Log Out", "href": "/auth" }
+	],
+	"menuButtonCreateEvent": {
+		"text": "Create Event",
+		"href": "/create"
+	},
 	"authMenu": [
 		{
+			"id": "login",
 			"name": "Log In",
 			"href": "/auth"
 		},
 		{
+			"id": "create-event",
 			"name": "<span class='lg-hidden'>Sign Up</span><span class='max-lg-hidden'>Create Event Page</span>",
 			"href": "/auth"
 		}
