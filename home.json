@@ -14,7 +14,7 @@
 		"features": [],
 		"ctaButton": {
 			"text": "Create Your First Meetup!",
-			"href": "/create"
+			"href": "/auth"
 		},
 		"ctaSignIn": {
 			"preText": "Already have an account?",
