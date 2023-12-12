@@ -34,28 +34,18 @@
 		},
 		{
 			"id": "location",
-			"placeholder": "Add Location",
+			"placeholder": "Add Event Location",
 			"type": "text"
 		},
 		{
-			"id": "map_link",
-			"placeholder": "+ Add google maps link",
-			"type": "text"
-		},
-		{
-			"id": "max_spot",
-			"placeholder": "Max",
-			"type": "text"
-		},
-		{
-			"id": "additional_msg",
-			"placeholder": "Additional message",
+			"id": "addr_note",
+			"placeholder": "Add specific instruction",
 			"type": "text"
 		},
 		{
 			"id": "description",
-			"placeholder": "Event description",
-			"type": "textarea"
+			"placeholder": "Add event description",
+			"type": "editor"
 		}
 	],
 	"uploadCoverProps": {
@@ -85,5 +75,6 @@
 		"source_thumbnail": "/images/effects/thumbnail_sparkling.png"
 	},
 	"publishEvent": "Publish Event",
-	"defaultCover": "https://networkydev.s3.us-west-2.amazonaws.com/images/create/default_cover.png"
+	"defaultCover": "/images/create/default_cover.png",
+	"notesRegister": "By registering to this event, the host will receive your contact information such as your name, email and phone number."
 }
